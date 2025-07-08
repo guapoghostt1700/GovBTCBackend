@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: govbtc-backend
+    env: python
+    buildCommand: ""
+    startCommand: python collector.py
+    plan: free
